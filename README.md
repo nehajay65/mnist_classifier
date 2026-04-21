@@ -83,8 +83,8 @@ jupyter notebook notebooks/exploration.ipynb
 Input (1×28×28)
   └─ Conv2d(1→32, k=3) + ReLU + MaxPool  ->  32×14×14
   └─ Conv2d(32→64, k=3) + ReLU + MaxPool -> 64×7×7
-  └─ Flatten → Linear(3136→256) + ReLU + Dropout(0.5)
-  └─ Linear(256→10)
+  └─ Flatten -> Linear(3136→256) + ReLU + Dropout(0.5)
+  └─ Linear(256->10)
 Output: logits for digits 0–9
 ```
 
@@ -97,6 +97,3 @@ Downloaded automatically by `torchvision.datasets.MNIST` — no manual step need
 
 ---
 
-## License
-
-MIT- feel free to use and modify.
